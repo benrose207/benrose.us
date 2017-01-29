@@ -1,3 +1,7 @@
+h1 {
+ font-size: 3rem; 
+}
+
 .jumbotron {
   display: flex;
   align-items: center;
