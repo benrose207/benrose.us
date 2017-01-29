@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   background-image: url('https://www.dropbox.com/s/r37myj5urlu4drp/DSC_0321.JPG?raw=1');
-  background-size: cover;
+  background-size: contain;
   color: #ffffff;
   height: 550px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
