@@ -42,13 +42,18 @@
 .title {
   display: flex;
   justify-content: center;
+  margin: 3rem;
 }
 
 .gallery {
   display:inline-block;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 5px;
+  margin-top: 3rem;
+}
+
+.bottom-buffer {
+  margin-bottom: 10px;
 }
 
 .gallery-item .picture {
@@ -58,6 +63,5 @@ padding: 0;
 }
 
 section .row img {
-  margin: 0 0 10px;
   width: 100%;
 }
