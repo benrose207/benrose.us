@@ -1,16 +1,58 @@
-.fixed-nav-bar {
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
   width: 100%;
-  height: 50px;
-  background-color: white;
 }
 
-.page-title {
-  font-size: 2rem;
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav a {
+  display: inline-block;
+  padding: 8px;
+  color: #000080;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+ul.topnav li a:hover {
+  background-color: gray;
+}
+
+ul.topnav li.icon {
+  display: none;
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
 }
 
 .jumbotron-text {
