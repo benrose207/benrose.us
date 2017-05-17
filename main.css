@@ -101,3 +101,48 @@ margin-top:25px
 section .row img {
   width: 100%;
 }
+
+.header {
+  font-family: Raleway;
+  font-weight: bold;
+}
+
+.topdiv {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.linebreak {
+  border-width: 4px;
+  border-color: black;
+  margin: 4px 0px 15px 0px;
+}
+
+.top-linebreak {
+  border-width: 4px;
+  border-color: black;
+}
+
+.resumecontent {
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+.linebreak-heading {
+  border-width: 4px;
+  border-color: black;
+  width: 15%;
+  position: absolute;
+  margin: 4px 0px;
+}
+
+.subtext {
+  color: #9e9e9e;
+  font-size: 1.25rem;
+  margin-top:-10px;
+}
+
+span {
+  font-weight: bold;
+}
