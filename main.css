@@ -2,6 +2,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+html {
+  font-size:16px;
+}
+
 ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -11,7 +15,6 @@ ul.topnav {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 50px;
   z-index: 1000;
 }
 
@@ -94,12 +97,8 @@ ul.topnav li.icon {
 }
 
 .picture {
-max-width: 100%;
-margin-top:25px
-}
-
-section .row img {
   width: 100%;
+  margin-top:25px
 }
 
 .header {
@@ -109,28 +108,29 @@ section .row img {
 
 .topdiv {
   margin-top: 50px;
-  margin-left: 50px;
+  margin-left: 4%;
   margin-bottom: 30px;
 }
 
 .linebreak {
-  border-width: 4px;
+  border-width: 3px;
   border-color: black;
   margin: 4px 0px 15px 0px;
 }
 
 .top-linebreak {
-  border-width: 4px;
+  border-width: 3px;
   border-color: black;
 }
 
 .resumecontent {
-  margin-left: 50px;
+  margin-left: 4%;
   margin-bottom: 30px;
+  float:left;
 }
 
 .linebreak-heading {
-  border-width: 4px;
+  border-width: 3px;
   border-color: black;
   width: 15%;
   position: absolute;
