@@ -59,6 +59,9 @@ ul.topnav li.icon {
     display: block;
     text-align: left;
   }
+  .header {
+    text-align: center;
+  }
 }
 
 .jumbotron {
